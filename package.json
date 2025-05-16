@@ -1,0 +1,14 @@
+{
+  "name": "halal-inventory-checker",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "node generate-pages.js",
+    "start": "node generate-pages.js --watch"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
